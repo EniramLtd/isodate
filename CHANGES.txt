@@ -2,10 +2,11 @@
 CHANGES
 =======
 
-0.5.5 (unreleased)
+0.5.5 (2016-01-29)
 ------------------
 
-- Nothing changed yet
+- Forked into the isodate_eni package
+- All pickled UTC objects now unpickle to the same object (Jarno Saarimäki)
 
 
 0.5.4 (2015-08-06)

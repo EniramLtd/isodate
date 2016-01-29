@@ -2,22 +2,15 @@
 ISO 8601 date/time parser
 =========================
 
-.. image:: https://travis-ci.org/gweis/isodate.svg?branch=master
-    :target: https://travis-ci.org/gweis/isodate
-    :alt: Travis-CI
-.. image:: https://coveralls.io/repos/gweis/isodate/badge.svg?branch=master
-    :target: https://coveralls.io/r/gweis/isodate?branch=master
-    :alt: Coveralls
 .. image:: https://pypip.in/version/isodate/badge.svg
-    :target: https://pypi.python.org/pypi/isodate/
+    :target: https://github.com/EniramLtd/isodate
     :alt: Latest Version
-.. image:: https://pypip.in/download/isodate/badge.svg
-    :target: https://pypi.python.org/pypi/isodate/
-    :alt: Downloads
 .. image:: https://pypip.in/license/isodate/badge.svg
-    :target: https://pypi.python.org/pypi/isodate/
+    :target: https://github.com/EniramLtd/isodate
     :alt: License
 
+.. note:: This is an internal fork created at Eniram Ltd from the original
+          isodate module by Gerhard Weis.
 
 This module implements ISO 8601 date, time and duration parsing.
 The implementation follows ISO8601:2004 standard, and implements only
@@ -116,4 +109,4 @@ the methods and their limitations.
 The source release provides a *setup.py* script and a *buildout.cfg*. Both can
 be used to run the unit tests included.
 
-Source code is available at `<http://github.com/gweis/isodate>`_.
+Source code is available at `<http://github.com/EniramLtd/isodate>`_.

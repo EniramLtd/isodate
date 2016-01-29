@@ -45,8 +45,8 @@ except ImportError:
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-setup(name='isodate',
-      version='0.5.5.dev',
+setup(name='isodate_eni',
+      version='0.5.5',
       packages=['isodate', 'isodate.tests'],
       package_dir={'': 'src'},
 
@@ -56,10 +56,12 @@ setup(name='isodate',
       # PyPI metadata
       author='Gerhard Weis',
       author_email='gerhard.weis@proclos.com',
+      maintainer='Antti Kaihola',
+      maintainer_email='antti.kaihola@eniram.fi',
       description='An ISO 8601 date/time/duration parser and formatter',
       license='BSD',
       # keywords = '',
-      url='http://cheeseshop.python.org/pypi/isodate',
+      url='https://github.com/EniramLtd/isodate',
 
       long_description=(read('README.rst') +
                         read('CHANGES.txt') +
