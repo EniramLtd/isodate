@@ -11,3 +11,4 @@ dist
 parts
 .coverage
 htmlcov
+src/isodate_eni.egg-info
