@@ -25,6 +25,7 @@
 # INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 # CONTRACT, STRICT LIABILITY, OR TORT
 ##############################################################################
+import io
 import os
 import sys
 
@@ -43,7 +44,8 @@ except ImportError:
 
 
 def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+    return io.open(os.path.join(os.path.dirname(__file__), *rnames),
+                   encoding='UTF-8').read()
 
 setup(name='isodate_eni',
       version='0.5.5',
