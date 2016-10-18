@@ -2,6 +2,12 @@
 CHANGES
 =======
 
+0.5.6 (2016-10-18)
+------------------
+
+- ``setup.py`` is now Python 3.x compatible (Antti Kaihola)
+
+
 0.5.5 (2016-01-29)
 ------------------
 

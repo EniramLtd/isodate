@@ -48,7 +48,7 @@ def read(*rnames):
                    encoding='UTF-8').read()
 
 setup(name='isodate_eni',
-      version='0.5.5',
+      version='0.5.6',
       packages=['isodate', 'isodate.tests'],
       package_dir={'': 'src'},
 
